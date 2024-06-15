@@ -21,7 +21,7 @@ you may use a windows shell/command prompt for this project too! just add it to 
 
 #HOW TO USE
 1. clone the repository into your home directory, meaning Users/{your-name}
-2. ensure you get your files's exact root directory (you can have it using "find / -name "cheat.py" 2>/dev/null" on the terminal (without the " )
+2. ensure you get your files's exact root directory (you can have it using "find / -name "cheat.py" 2>/dev/null" on the terminal [without the " ])
 3. cd to your ~./bash_profile or ~/.zshrc, which are both located in the root (meaning if you were in the {your-name} directory, do cd .. twice to reach top level)
 4. edit your bash profile or zshrc using nano {name from earlier} or sudo nano {name from earlier} if you face any permission erros.
 5. go to the last line, add this: alias cheat:'python3 path/to/cheat.py', then control O, enter, then control X to exit
